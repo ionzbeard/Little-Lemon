@@ -15,8 +15,9 @@
 		E29743A82BC5B7F10052C571 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29743A72BC5B7F10052C571 /* Onboarding.swift */; };
 		E2A4DA182BC5D09E00C8C49D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A4DA172BC5D09E00C8C49D /* Menu.swift */; };
 		E2A4DA1A2BCCD94C00C8C49D /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A4DA192BCCD94C00C8C49D /* UserProfile.swift */; };
-		E2DF05B12BD0C09900BEAE13 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DF05AF2BD0C09900BEAE13 /* Persistence.swift */; };
-		E2DF05B22BD0C09900BEAE13 /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DF05B02BD0C09900BEAE13 /* FetchedObjects.swift */; };
+		E2D48C3C2BD0CC8500630DAC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D48C3B2BD0CC8500630DAC /* Persistence.swift */; };
+		E2D48C3E2BD0CCD500630DAC /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D48C3D2BD0CCD500630DAC /* FetchedObjects.swift */; };
+		E2D48C402BD0CD4000630DAC /* Persistence2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D48C3F2BD0CD4000630DAC /* Persistence2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +30,9 @@
 		E29743A72BC5B7F10052C571 /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		E2A4DA172BC5D09E00C8C49D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		E2A4DA192BCCD94C00C8C49D /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
-		E2DF05AF2BD0C09900BEAE13 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = ../../../Downloads/CoreDataSupport/Persistence.swift; sourceTree = "<group>"; };
-		E2DF05B02BD0C09900BEAE13 /* FetchedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		E2D48C3B2BD0CC8500630DAC /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E2D48C3D2BD0CCD500630DAC /* FetchedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		E2D48C3F2BD0CD4000630DAC /* Persistence2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +70,9 @@
 				E2654F742BC5CF7900CD4147 /* Home.swift */,
 				E2A4DA172BC5D09E00C8C49D /* Menu.swift */,
 				E2A4DA192BCCD94C00C8C49D /* UserProfile.swift */,
-				E2DF05B02BD0C09900BEAE13 /* FetchedObjects.swift */,
-				E2DF05AF2BD0C09900BEAE13 /* Persistence.swift */,
+				E2D48C3B2BD0CC8500630DAC /* Persistence.swift */,
+				E2D48C3D2BD0CCD500630DAC /* FetchedObjects.swift */,
+				E2D48C3F2BD0CD4000630DAC /* Persistence2.swift */,
 				E2673DB22BAD11F90019BDBC /* Assets.xcassets */,
 				E2673DB92BAD11F90019BDBC /* Little_Lemon.xcdatamodeld */,
 				E2673DB42BAD11F90019BDBC /* Preview Content */,
@@ -156,13 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2A4DA182BC5D09E00C8C49D /* Menu.swift in Sources */,
-				E2DF05B12BD0C09900BEAE13 /* Persistence.swift in Sources */,
+				E2D48C3C2BD0CC8500630DAC /* Persistence.swift in Sources */,
 				E2A4DA1A2BCCD94C00C8C49D /* UserProfile.swift in Sources */,
 				E2673DBB2BAD11F90019BDBC /* Little_Lemon.xcdatamodeld in Sources */,
+				E2D48C402BD0CD4000630DAC /* Persistence2.swift in Sources */,
+				E2D48C3E2BD0CCD500630DAC /* FetchedObjects.swift in Sources */,
 				E2654F752BC5CF7900CD4147 /* Home.swift in Sources */,
 				E29743A82BC5B7F10052C571 /* Onboarding.swift in Sources */,
 				E2673DAF2BAD11F70019BDBC /* Little_LemonApp.swift in Sources */,
-				E2DF05B22BD0C09900BEAE13 /* FetchedObjects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
