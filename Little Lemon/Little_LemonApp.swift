@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct Little_LemonApp: App {
+    
+    @Environment(\.managedObjectContext) private var viewContext
+    
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {

@@ -2,9 +2,13 @@
 import SwiftUI
 
 struct Home: View {
+    
+    let persistence = PersistenceController.shared
+    
     var body: some View {
         TabView{
             Menu()
+                .environment(\.managedObjectContext, persistence.container.viewContext)
                 .tabItem { Label("Menu", systemImage: "list.dash")
                           }
             UserProfile()
@@ -17,6 +21,6 @@ struct Home: View {
 
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
-        Home()
+        Home().environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
     }
 }
