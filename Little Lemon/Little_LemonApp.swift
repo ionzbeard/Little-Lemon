@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Little_LemonApp: App {
+struct Little_LemonApp: App{
     
     @Environment(\.managedObjectContext) private var viewContext
     
@@ -16,8 +16,12 @@ struct Little_LemonApp: App {
 
     var body: some Scene {
         WindowGroup {
-            OnboardingView()
+            Onboarding()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+
+
+
+
