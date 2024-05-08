@@ -19,7 +19,7 @@ struct UserProfile: View {
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
-            NavigationLink(destination: Onboarding(), isActive: $isLoggedOut) { }
+            NavigationLink(destination: Onboarding(), isActive:  $isLoggedOut) { }
             VStack(spacing: 5) {
                 VStack {
                     Text("Avatar")

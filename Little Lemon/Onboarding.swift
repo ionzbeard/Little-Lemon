@@ -26,13 +26,13 @@ struct Onboarding: View {
                         .frame(maxWidth: .infinity, maxHeight: 240)
                     VStack {
                         NavigationLink(destination: Home(), isActive: $isLoggedIn) { }
-                        Text("First name *")
+                        Text("*First name:")
                             .onboardingTextStyle()
                         TextField("First Name", text: $firstName)
-                        Text("Last name *")
+                        Text("*Last name:")
                             .onboardingTextStyle()
                         TextField("Last Name", text: $lastName)
-                        Text("E-mail *")
+                        Text("*E-mail: ")
                             .onboardingTextStyle()
                         TextField("E-mail", text: $email)
                             .keyboardType(.emailAddress)

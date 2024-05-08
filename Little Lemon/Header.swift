@@ -14,7 +14,7 @@ struct Header: View {
         NavigationStack {
             VStack {
                 ZStack {
-                    Image("logo")
+                    Image("Logo")
                     HStack {
                         Spacer()
                         if isLoggedIn {

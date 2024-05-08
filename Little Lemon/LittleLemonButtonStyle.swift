@@ -89,7 +89,7 @@ extension Text {
         self
             .frame(maxWidth: .infinity, alignment: .leading)
             .foregroundColor(Color.primaryColor1)
-            .font(.custom("Karla-Bold", size: 13))
+            .font(.custom("Karla-Bold", size: 25))
     }
 }
 
@@ -99,7 +99,7 @@ extension Font {
     }
     
     static func subTitleFont() -> Font {
-        return Font.custom("Markazi Text", size: 32)
+        return Font.custom("Markazi Text", size: 32).weight(.regular)
     }
     
     static func leadText() -> Font {
@@ -119,7 +119,7 @@ extension Font {
     }
     
     static func paragraphText() -> Font {
-        return Font.custom("Karla", size: 14)
+        return Font.custom("Karla", size: 14).weight(.regular)
     }
     
     static func highlightText() -> Font {

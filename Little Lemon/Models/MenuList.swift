@@ -4,7 +4,6 @@
 //
 //  Created by Jonathan Cabral on 4/18/24.
 //
-
 import Foundation
 import CoreData
 
